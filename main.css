@@ -1,5 +1,55 @@
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/jimmy-dean-Yn0l7uwBrpw-unsplash.jpg);
+
+    opacity: 0.3;
+
+
+}
+
 .h {
     text-align: center;
+
+
+
+}
+
+li {
+
+    text-align: justify;
+    list-style: none;
+    position: relative;
+    left: 480px;
+
+
+}
+
+
+
+
+.li1 {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.li2 {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
 }
 
 img {
@@ -10,7 +60,8 @@ img {
 }
 
 h1 {
-    color: green;
+    font-family: cursive;
+    text-decoration: underline;
 }
 
 p {
@@ -19,7 +70,7 @@ p {
     padding: 1rem;
     margin: auto;
     border-radius: 15px;
-    box-shadow: 6px 6px 16px ;
+    box-shadow: 6px 6px 16px;
     background-color: honeydew;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
