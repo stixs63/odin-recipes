@@ -76,3 +76,31 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+
+.plink {
+    display: flex;
+    position: relative;
+    left: 400px;
+    color: white;
+    text-decoration: none;
+    border: solid;
+    border-radius: 10px;
+    width: max-content;
+
+    padding: 1rem;
+    font-size: x-large;
+    background-color: rgb(127, 14, 233);
+
+}
+
+.plink {
+    transition: transform .3s ease-in-out;
+
+
+
+}
+
+.plink:hover {
+    transform: scale(1.2);
+    text-decoration: underline;
+}
