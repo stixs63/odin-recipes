@@ -1,0 +1,39 @@
+body {
+    background-color: gray;
+}
+
+ul {
+    display: flex;
+    position: relative;
+    right: 150px;
+
+
+
+
+}
+
+.olink {
+    display: flex;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    border: solid transparent;
+    border-radius: 10px;
+    width: max-content;
+    padding: 1rem;
+    font-size: x-large;
+    background-color: rgb(127, 14, 233);
+
+}
+
+.olink {
+    transition: transform .3s ease-in-out;
+
+
+
+}
+
+.olink:hover {
+    transform: scale(1.2);
+    text-decoration: underline;
+}
