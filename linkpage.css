@@ -1,13 +1,34 @@
-body {
-    background-color: gray;
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img\abc.jpg/);
+    opacity: 0.3;
 }
 
 ul {
     display: flex;
     position: relative;
-    right: 150px;
+    right: 210px;
 
 
+
+
+
+
+}
+
+a,
+.olink {
+    color: white;
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
 
 
 }
@@ -28,6 +49,7 @@ ul {
 
 .olink {
     transition: transform .3s ease-in-out;
+
 
 
 
